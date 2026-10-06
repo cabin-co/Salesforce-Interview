@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Rep_Role__c</fullName>
+    <label>Sales Rep Role</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACCOUNT_EXECUTIVE</fullName>
+                <default>false</default>
+                <label>ACCOUNT_EXECUTIVE</label>
+            </value>
+            <value>
+                <fullName>SALES_DEVELOPMENT_REP</fullName>
+                <default>false</default>
+                <label>SALES_DEVELOPMENT_REP</label>
+            </value>
+            <value>
+                <fullName>ACCOUNT_MANAGER</fullName>
+                <default>false</default>
+                <label>ACCOUNT_MANAGER</label>
+            </value>
+            <value>
+                <fullName>SALES_MANAGER</fullName>
+                <default>false</default>
+                <label>SALES_MANAGER</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

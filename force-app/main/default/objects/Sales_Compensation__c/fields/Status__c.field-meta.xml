@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Compensation Status</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CALCULATING</fullName>
+                <default>false</default>
+                <label>CALCULATING</label>
+            </value>
+            <value>
+                <fullName>CALCULATED</fullName>
+                <default>true</default>
+                <label>CALCULATED</label>
+            </value>
+            <value>
+                <fullName>APPROVED</fullName>
+                <default>false</default>
+                <label>APPROVED</label>
+            </value>
+            <value>
+                <fullName>PAID</fullName>
+                <default>false</default>
+                <label>PAID</label>
+            </value>
+            <value>
+                <fullName>CANCELLED</fullName>
+                <default>false</default>
+                <label>CANCELLED</label>
+            </value>
+            <value>
+                <fullName>REVERSED</fullName>
+                <default>false</default>
+                <label>REVERSED</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

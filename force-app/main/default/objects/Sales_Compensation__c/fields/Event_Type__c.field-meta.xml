@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Type__c</fullName>
+    <label>Event Type</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OPPORTUNITY_CLOSED_WON</fullName>
+                <default>false</default>
+                <label>OPPORTUNITY_CLOSED_WON</label>
+            </value>
+            <value>
+                <fullName>OPPORTUNITY_CLOSED_LOST</fullName>
+                <default>false</default>
+                <label>OPPORTUNITY_CLOSED_LOST</label>
+            </value>
+            <value>
+                <fullName>OPPORTUNITY_UPDATED</fullName>
+                <default>false</default>
+                <label>OPPORTUNITY_UPDATED</label>
+            </value>
+            <value>
+                <fullName>OPPORTUNITY_CANCELLED</fullName>
+                <default>false</default>
+                <label>OPPORTUNITY_CANCELLED</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

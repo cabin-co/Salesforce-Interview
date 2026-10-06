@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Runtime settings for the sales compensation integration.</description>
+    <label>Sales Comp Integration Config</label>
+    <pluralLabel>Sales Comp Integration Configs</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
