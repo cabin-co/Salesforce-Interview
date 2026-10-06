@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Stage__c</fullName>
+    <label>Opportunity Stage</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PROSPECTING</fullName>
+                <default>false</default>
+                <label>PROSPECTING</label>
+            </value>
+            <value>
+                <fullName>QUALIFICATION</fullName>
+                <default>false</default>
+                <label>QUALIFICATION</label>
+            </value>
+            <value>
+                <fullName>PROPOSAL</fullName>
+                <default>false</default>
+                <label>PROPOSAL</label>
+            </value>
+            <value>
+                <fullName>NEGOTIATION</fullName>
+                <default>false</default>
+                <label>NEGOTIATION</label>
+            </value>
+            <value>
+                <fullName>CLOSED_WON</fullName>
+                <default>false</default>
+                <label>CLOSED_WON</label>
+            </value>
+            <value>
+                <fullName>CLOSED_LOST</fullName>
+                <default>false</default>
+                <label>CLOSED_LOST</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
